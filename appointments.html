@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+   ______                            __
+  / ____/___  ____ ___  ____  __  __/ /____  _____
+ / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
+/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
+\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
+                    /_/
+        Created with Perplexity Computer
+        https://www.perplexity.ai/computer
+-->
+
+<!-- Perplexity Computer Attribution — SEO Meta Tags -->
+<meta name="generator" content="Perplexity Computer">
+<meta name="author" content="Perplexity Computer">
+<meta property="og:see_also" content="https://www.perplexity.ai/computer">
+<link rel="author" href="https://www.perplexity.ai/computer">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book an Appointment | Mr Brett Bairstow Orthopaedic Surgeon Perth</title>
+<meta name="description" content="Book an appointment with Mr Brett Bairstow, orthopaedic surgeon in Osborne Park, Perth. Call 08 9271 1552 or complete our online referral request form.">
+<meta name="keywords" content="book appointment orthopaedic surgeon Perth, Brett Bairstow appointment, orthopaedic referral Perth, Osborne Park surgeon appointment">
+<link rel="canonical" href="https://www.brettbairstow.com.au/appointments.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.brettbairstow.com.au/appointments.html">
+<meta property="og:title" content="Book an Appointment | Mr Brett Bairstow Orthopaedic Surgeon Perth">
+<meta property="og:description" content="Book an appointment with Mr Brett Bairstow, orthopaedic surgeon in Osborne Park, Perth. Call 08 9271 1552 or complete our online referral request form.">
+<meta property="og:image" content="./assets/images/og-image.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Book an Appointment | Mr Brett Bairstow Orthopaedic Surgeon Perth">
+<meta name="twitter:description" content="Book an appointment with Mr Brett Bairstow. Call 08 9271 1552 or submit a referral request online.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
+
+<!-- Styles -->
+<link rel="stylesheet" href="./base.css">
+<link rel="stylesheet" href="./style.css">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Mr Brett Bairstow — Orthopaedic Surgeon",
+  "description": "Fellowship-trained orthopaedic surgeon specialising in hip and knee replacement and sports knee surgery in Perth, Western Australia.",
+  "url": "https://www.brettbairstow.com.au/appointments.html",
+  "telephone": "08 9271 1552",
+  "faxNumber": "08 9271 1553",
+  "email": "drbrettbairstow@westnet.com.au",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Unit 2, 29 Walters Drive",
+    "addressLocality": "Osborne Park",
+    "addressRegion": "WA",
+    "postalCode": "6017",
+    "addressCountry": "AU"
+  },
+  "openingHours": "Mo-Fr",
+  "creator": {
+    "@type": "SoftwareApplication",
+    "name": "Perplexity Computer",
+    "url": "https://www.perplexity.ai/computer"
+  }
+}
+</script>
+
+<style>
+/* Appointments page inline styles */
+.appt-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-10);
+  align-items: start;
+}
+
+.info-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.refer-info-card__title {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  color: var(--color-navy);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-4);
+  border-bottom: 2px solid var(--color-gold);
+}
+
+.refer-info-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+}
+
+.refer-detail {
+  margin-bottom: var(--space-2);
+}
+
+.refer-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.refer-row:last-child {
+  border-bottom: none;
+}
+
+.refer-row__label {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-navy);
+  min-width: 80px;
+  flex-shrink: 0;
+  padding-top: 1px;
+}
+
+.refer-row__value {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.refer-row__value a {
+  color: var(--color-navy);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.refer-row__value a:hover { text-decoration: underline; }
+
+.refer-row__icon {
+  flex-shrink: 0;
+  color: var(--color-gold);
+  margin-top: 2px;
+}
+
+.referral-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.referral-list li {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  padding-left: var(--space-6);
+  position: relative;
+  line-height: 1.6;
+}
+
+.referral-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 14px;
+  height: 2px;
+  background: var(--color-gold);
+  border-radius: 1px;
+}
+
+/* Form styles extending contact-form */
+.contact-form {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+}
+
+.form-title {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  color: var(--color-navy);
+  margin-bottom: var(--space-6);
+  padding-bottom: var(--space-4);
+  border-bottom: 2px solid var(--color-gold);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  margin-bottom: var(--space-4);
+}
+
+.form-group label {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-navy);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  color: var(--color-text);
+  background: var(--color-bg);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.form-group select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23888' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--space-3) center;
+  padding-right: var(--space-10);
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-navy);
+  box-shadow: 0 0 0 3px rgba(15, 31, 61, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 110px;
+  line-height: 1.6;
+}
+
+.form-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+  cursor: pointer;
+}
+
+.form-checkbox input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg);
+  cursor: pointer;
+  flex-shrink: 0;
+  margin-top: 1px;
+  accent-color: var(--color-navy);
+}
+
+.form-checkbox__label {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+}
+
+.form-privacy {
+  font-size: var(--text-xs);
+  color: var(--color-text-faint);
+  line-height: 1.6;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-6);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface-alt, var(--color-surface));
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+}
+
+.form-success {
+  display: none;
+  text-align: center;
+  padding: var(--space-12) var(--space-8);
+  color: var(--color-navy);
+}
+
+.form-success__icon {
+  width: 56px;
+  height: 56px;
+  background: rgba(15, 31, 61, 0.08);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--space-5);
+  color: var(--color-gold);
+}
+
+.form-success__title {
+  font-family: var(--font-display);
+  font-size: var(--text-xl);
+  margin-bottom: var(--space-3);
+  color: var(--color-navy);
+}
+
+.form-success__text {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+/* Fees & bring sections */
+.fees-section {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  margin-bottom: var(--space-6);
+}
+
+.fees-section__title {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  color: var(--color-navy);
+  margin-bottom: var(--space-4);
+}
+
+.fees-section p {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.75;
+}
+
+.bring-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+}
+
+.bring-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+}
+
+.bring-item__icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(15, 31, 61, 0.07);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-navy);
+  flex-shrink: 0;
+}
+
+.bring-item__text {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .appt-split {
+    grid-template-columns: 1fr;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .bring-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- Announcement Bar -->
+<div class="announcement-bar" role="banner">
+  <span>Appointments: </span>
+  <a href="tel:0892711552">08 9271 1552</a>
+  <span class="sep">|</span>
+  <span>Consulting at Osborne Park &amp; Northam</span>
+  <span class="sep">|</span>
+  <a href="./appointments.html">Request a Referral</a>
+</div>
+
+<!-- Header -->
+<header class="site-header" role="banner" id="site-header">
+  <div class="container">
+    <div class="header-inner">
+
+      <!-- Logo -->
+      <a href="./index.html" class="site-logo" aria-label="Mr Brett Bairstow Orthopaedic Surgeon — Home">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+          <rect width="44" height="44" rx="10" fill="#0f1f3d"/>
+          <!-- Stylised bone / cross motif -->
+          <rect x="20" y="8" width="4" height="28" rx="2" fill="#b8923a"/>
+          <rect x="8" y="20" width="28" height="4" rx="2" fill="#b8923a"/>
+          <circle cx="22" cy="22" r="4" fill="#0f1f3d"/>
+          <circle cx="12" cy="12" r="3" fill="#b8923a"/>
+          <circle cx="32" cy="12" r="3" fill="#b8923a"/>
+          <circle cx="12" cy="32" r="3" fill="#b8923a"/>
+          <circle cx="32" cy="32" r="3" fill="#b8923a"/>
+        </svg>
+        <span class="site-logo__text">
+          <span class="site-logo__name">Mr Brett Bairstow</span>
+          <span class="site-logo__title">Orthopaedic Surgeon · Perth WA</span>
+        </span>
+      </a>
+
+      <!-- Nav -->
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav-list" role="list">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="./procedures.html" class="nav-link">Procedures</a>
+            <ul class="dropdown" role="list">
+              <li><a href="./procedures.html#hip-replacement">Hip Replacement</a></li>
+              <li><a href="./procedures.html#knee-replacement">Knee Replacement</a></li>
+              <li><a href="./procedures.html#acl-reconstruction">ACL Reconstruction</a></li>
+              <li><a href="./procedures.html#knee-arthroscopy">Knee Arthroscopy</a></li>
+              <li><a href="./procedures.html#partial-knee">Partial Knee Replacement</a></li>
+              <li><a href="./procedures.html">All Procedures</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="./appointments.html" class="nav-link active">Appointments</a>
+          </li>
+          <li class="nav-item">
+            <a href="./referrers.html" class="nav-link">Refer a Patient</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode" title="Toggle theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          </svg>
+        </button>
+        <a href="./appointments.html" class="btn btn--primary" style="display:none;" id="nav-cta">Book Appointment</a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<!-- Page Hero -->
+<section class="page-hero" aria-label="Page hero">
+  <div class="container">
+    <p class="page-hero__eyebrow">Osborne Park &amp; Northam</p>
+    <h1 class="page-hero__title">Appointments &amp; Referrals</h1>
+    <p class="page-hero__subtitle">A referral from your GP or specialist is required to see Mr Bairstow.</p>
+  </div>
+</section>
+
+<!-- Contact Split -->
+<section aria-labelledby="contact-heading">
+  <div class="container">
+    <div class="appt-split">
+
+      <!-- LEFT: Contact info + referral info -->
+      <div class="info-stack">
+
+        <!-- Contact Details Card -->
+        <div class="refer-info-card">
+          <h2 class="refer-info-card__title" id="contact-heading">Contact Our Rooms</h2>
+
+          <div class="refer-detail">
+            <div class="refer-row">
+              <span class="refer-row__icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92l-.08 2z"/></svg>
+              </span>
+              <span class="refer-row__label">Phone</span>
+              <span class="refer-row__value"><a href="tel:0892711552">08 9271 1552</a></span>
+            </div>
+            <div class="refer-row">
+              <span class="refer-row__icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+              </span>
+              <span class="refer-row__label">Fax</span>
+              <span class="refer-row__value">08 9271 1553</span>
+            </div>
+            <div class="refer-row">
+              <span class="refer-row__icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </span>
+              <span class="refer-row__label">Email</span>
+              <span class="refer-row__value"><a href="mailto:drbrettbairstow@westnet.com.au">drbrettbairstow@westnet.com.au</a></span>
+            </div>
+            <div class="refer-row">
+              <span class="refer-row__icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </span>
+              <span class="refer-row__label">Address</span>
+              <span class="refer-row__value">Unit 2, 29 Walters Drive<br>Osborne Park WA 6017</span>
+            </div>
+            <div class="refer-row">
+              <span class="refer-row__icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 10-16 0c0 3 2.7 6.9 8 11.7z"/></svg>
+              </span>
+              <span class="refer-row__label">Healthlink</span>
+              <span class="refer-row__value">MTLAORTH</span>
+            </div>
+            <div class="refer-row">
+              <span class="refer-row__icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              </span>
+              <span class="refer-row__label">Hours</span>
+              <span class="refer-row__value">Monday to Friday<br><small style="color:var(--color-text-faint);">Contact rooms for specific hours</small></span>
+            </div>
+          </div>
+
+          <div style="margin-top:var(--space-6);">
+            <a href="https://maps.google.com/?q=29+Walters+Drive,+Osborne+Park+WA+6017" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">Get Directions</a>
+          </div>
+        </div>
+
+        <!-- Referral Information Card -->
+        <div class="refer-info-card">
+          <h2 class="refer-info-card__title">Referral Information</h2>
+          <ul class="referral-list">
+            <li>Referrals can be sent by fax or via Healthlink (MTLAORTH)</li>
+            <li>New patients must have a current GP or specialist referral</li>
+            <li>Please include any relevant imaging (X-rays, MRI)</li>
+            <li>Mr Bairstow also visits Northam approximately every 6 weeks</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- RIGHT: Referral Request Form -->
+      <div>
+        <div class="contact-form" id="referral-form-wrap">
+          <h2 class="form-title">Referral Request</h2>
+
+          <!-- Success message (hidden by default) -->
+          <div class="form-success" id="form-success" aria-live="polite">
+            <div class="form-success__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <h3 class="form-success__title">Request Sent</h3>
+            <p class="form-success__text">Thank you for your referral request. Our rooms will be in touch to confirm your appointment. If you have an urgent enquiry, please call us directly on <a href="tel:0892711552" style="color:var(--color-navy);font-weight:600;">(08) 9271 1552</a>.</p>
+          </div>
+
+          <form id="referral-form" action="#" method="post" novalidate>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name <span aria-hidden="true" style="color:var(--color-gold);">*</span></label>
+                <input type="text" id="first-name" name="first_name" required autocomplete="given-name" placeholder="e.g. John">
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name <span aria-hidden="true" style="color:var(--color-gold);">*</span></label>
+                <input type="text" id="last-name" name="last_name" required autocomplete="family-name" placeholder="e.g. Smith">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address <span aria-hidden="true" style="color:var(--color-gold);">*</span></label>
+                <input type="email" id="email" name="email" required autocomplete="email" placeholder="your@email.com">
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number <span aria-hidden="true" style="color:var(--color-gold);">*</span></label>
+                <input type="tel" id="phone" name="phone" required autocomplete="tel" placeholder="04xx xxx xxx">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="reason">Reason for Appointment</label>
+              <select id="reason" name="reason">
+                <option value="" disabled selected>Select a reason...</option>
+                <option value="hip-replacement">Hip Replacement</option>
+                <option value="knee-replacement">Knee Replacement</option>
+                <option value="acl-reconstruction">ACL Reconstruction</option>
+                <option value="knee-arthroscopy">Knee Arthroscopy</option>
+                <option value="other">Other / Not Sure</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="location">Preferred Location</label>
+              <select id="location" name="location">
+                <option value="" disabled selected>Select a location...</option>
+                <option value="osborne-park">Osborne Park</option>
+                <option value="northam">Northam</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message / Additional Information</label>
+              <textarea id="message" name="message" placeholder="Please briefly describe your condition or any relevant details..."></textarea>
+            </div>
+
+            <label class="form-checkbox">
+              <input type="checkbox" id="has-referral" name="has_referral" required>
+              <span class="form-checkbox__label">I have a current GP referral</span>
+            </label>
+
+            <label class="form-checkbox">
+              <input type="checkbox" id="referral-required" name="referral_required" required>
+              <span class="form-checkbox__label">I understand a referral is required to see Mr Bairstow</span>
+            </label>
+
+            <p class="form-privacy">Your information is handled in accordance with our Privacy Policy. We do not share your details with third parties.</p>
+
+            <button type="submit" class="btn btn--primary btn--lg" style="width:100%;">Send Referral Request</button>
+
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Patient Fees -->
+<section class="section--surface" aria-labelledby="fees-heading" style="padding-bottom:var(--space-4);">
+  <div class="container container--narrow">
+    <div class="fees-section">
+      <h2 class="fees-section__title" id="fees-heading">Patient Fees</h2>
+      <p>Mr Bairstow charges fees for his services. As a private specialist, out-of-pocket costs may apply. We recommend contacting your private health insurer prior to your appointment to understand your cover. For Medicare and fee queries, please contact our rooms directly on <a href="tel:0892711552" style="color:var(--color-navy);font-weight:600;">(08) 9271 1552</a>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- What to Bring -->
+<section aria-labelledby="bring-heading">
+  <div class="container container--narrow">
+    <p class="section-eyebrow">Be Prepared</p>
+    <h2 class="section-title" id="bring-heading">What to Bring</h2>
+    <p class="section-subtitle">Please bring the following items to your appointment with Mr Bairstow.</p>
+
+    <div class="bring-grid">
+      <div class="bring-item fade-in">
+        <div class="bring-item__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <span class="bring-item__text">GP Referral letter</span>
+      </div>
+      <div class="bring-item fade-in fade-in-delay-1">
+        <div class="bring-item__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+        </div>
+        <span class="bring-item__text">Medicare card</span>
+      </div>
+      <div class="bring-item fade-in fade-in-delay-2">
+        <div class="bring-item__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M6 10h4M6 14h2"/></svg>
+        </div>
+        <span class="bring-item__text">Private health insurance card</span>
+      </div>
+      <div class="bring-item fade-in fade-in-delay-3">
+        <div class="bring-item__icon" aria-hidden="true">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 12h8M12 8v8"/></svg>
+        </div>
+        <span class="bring-item__text">Any relevant X-rays or MRI scans</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Banner -->
+<section class="cta-banner" aria-labelledby="cta-heading">
+  <div class="container">
+    <div class="cta-banner__content">
+      <h2 class="cta-banner__title" id="cta-heading">Ready to Take the Next Step?</h2>
+      <p class="cta-banner__subtitle">Ask your GP for a referral to Mr Brett Bairstow, or contact our rooms directly to discuss your treatment options.</p>
+      <div class="cta-banner__actions">
+        <a href="#referral-form-wrap" class="btn btn--primary btn--lg">Submit Referral Request</a>
+        <a href="tel:0892711552" class="btn btn--outline-white btn--lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92l-.08 2z"/></svg>
+          Call 08 9271 1552
+        </a>
+        <a href="./referrers.html" class="btn btn--outline-white btn--lg">Refer a Patient</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Disclaimer -->
+<div class="disclaimer-strip">
+  <div class="container">
+    <p>The content on this website is intended for informational purposes only and does not constitute medical advice. Always consult a qualified medical professional for personalised treatment recommendations. A referral from your GP is required to see Mr Bairstow.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="footer-brand__logo">
+          <a href="./index.html" class="site-logo" aria-label="Mr Brett Bairstow — Home">
+            <svg width="36" height="36" viewBox="0 0 44 44" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+              <rect width="44" height="44" rx="10" fill="#b8923a"/>
+              <rect x="20" y="8" width="4" height="28" rx="2" fill="#fff"/>
+              <rect x="8" y="20" width="28" height="4" rx="2" fill="#fff"/>
+              <circle cx="22" cy="22" r="4" fill="#b8923a"/>
+              <circle cx="12" cy="12" r="3" fill="rgba(255,255,255,0.5)"/>
+              <circle cx="32" cy="12" r="3" fill="rgba(255,255,255,0.5)"/>
+              <circle cx="12" cy="32" r="3" fill="rgba(255,255,255,0.5)"/>
+              <circle cx="32" cy="32" r="3" fill="rgba(255,255,255,0.5)"/>
+            </svg>
+          </a>
+        </div>
+        <p class="footer-brand__desc">
+          Mr Brett Bairstow is a fellowship-trained orthopaedic surgeon providing expert care in hip &amp; knee replacement and sports knee surgery in Perth, Western Australia.
+        </p>
+        <div class="footer-contact-row">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92l-.08 2z"/></svg>
+          <a href="tel:0892711552">(08) 9271 1552</a>
+        </div>
+        <div class="footer-contact-row">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:drbrettbairstow@westnet.com.au">drbrettbairstow@westnet.com.au</a>
+        </div>
+      </div>
+
+      <!-- Navigation -->
+      <div class="footer-section">
+        <h3 class="footer-section__title">Navigation</h3>
+        <ul role="list">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About Mr Bairstow</a></li>
+          <li><a href="./procedures.html">Procedures</a></li>
+          <li><a href="./appointments.html">Appointments</a></li>
+          <li><a href="./referrers.html">Refer a Patient</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Procedures -->
+      <div class="footer-section">
+        <h3 class="footer-section__title">Procedures</h3>
+        <ul role="list">
+          <li><a href="./procedures.html#hip-replacement">Hip Replacement</a></li>
+          <li><a href="./procedures.html#knee-replacement">Total Knee Replacement</a></li>
+          <li><a href="./procedures.html#partial-knee">Partial Knee Replacement</a></li>
+          <li><a href="./procedures.html#acl-reconstruction">ACL Reconstruction</a></li>
+          <li><a href="./procedures.html#knee-arthroscopy">Knee Arthroscopy</a></li>
+          <li><a href="./procedures.html">All Procedures</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="footer-section">
+        <h3 class="footer-section__title">Main Rooms</h3>
+        <div class="footer-contact-row">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Unit 2, 29 Walters Drive<br>Osborne Park WA 6017</span>
+        </div>
+        <div class="footer-contact-row">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92l-.08 2z"/></svg>
+          <a href="tel:0892711552">(08) 9271 1552</a>
+        </div>
+        <div class="footer-contact-row">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
+          <span>Fax: (08) 9271 1553</span>
+        </div>
+        <div class="footer-contact-row">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 10-16 0c0 3 2.7 6.9 8 11.7z"/></svg>
+          <span>Healthlink: MTLAORTH</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+      <p class="footer-bottom__copy">
+        &copy; 2026 Mr Brett Bairstow. All rights reserved. Medical information provided for general information only.
+        <br>
+        <a href="https://www.perplexity.ai/computer" target="_blank" rel="noopener noreferrer" style="color:rgba(255,255,255,0.25);text-decoration:none;">Created with Perplexity Computer</a>
+      </p>
+      <div class="footer-bottom__links">
+        <a href="./privacy.html">Privacy Policy</a>
+        <a href="./terms.html">Terms &amp; Conditions</a>
+        <a href="./contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile Sticky Phone Bar -->
+<div class="sticky-phone" role="complementary" aria-label="Quick contact">
+  <a href="tel:0892711552">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92l-.08 2z"/></svg>
+    Call Us
+  </a>
+  <a href="#referral-form-wrap" class="sticky-phone-book">Book Appointment</a>
+</div>
+
+<!-- JavaScript -->
+<script>
+// Theme toggle
+(function(){
+  const t = document.querySelector('[data-theme-toggle]');
+  const r = document.documentElement;
+  let d = matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
+  r.setAttribute('data-theme', d);
+  if (t) {
+    const sunIcon = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>';
+    const moonIcon = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+    t.innerHTML = d === 'dark' ? sunIcon : moonIcon;
+    t.addEventListener('click', () => {
+      d = d === 'dark' ? 'light' : 'dark';
+      r.setAttribute('data-theme', d);
+      t.innerHTML = d === 'dark' ? sunIcon : moonIcon;
+      t.setAttribute('aria-label', 'Switch to ' + (d === 'dark' ? 'light' : 'dark') + ' mode');
+    });
+  }
+})();
+
+// Sticky header on scroll
+const header = document.getElementById('site-header');
+window.addEventListener('scroll', () => {
+  header.classList.toggle('scrolled', window.scrollY > 20);
+}, { passive: true });
+
+// Mobile menu toggle
+const menuToggle = document.getElementById('menu-toggle');
+const siteNav = document.getElementById('site-nav');
+if (menuToggle && siteNav) {
+  menuToggle.addEventListener('click', () => {
+    const isOpen = siteNav.classList.toggle('open');
+    menuToggle.setAttribute('aria-expanded', isOpen);
+  });
+}
+
+// Mobile dropdown toggles
+document.querySelectorAll('.has-dropdown > .nav-link').forEach(link => {
+  link.addEventListener('click', (e) => {
+    if (window.innerWidth <= 900) {
+      e.preventDefault();
+      link.closest('.has-dropdown').classList.toggle('open');
+    }
+  });
+});
+
+// Show CTA button after scroll
+const navCta = document.getElementById('nav-cta');
+if (navCta) {
+  window.addEventListener('scroll', () => {
+    navCta.style.display = window.scrollY > 300 ? 'inline-flex' : 'none';
+  }, { passive: true });
+}
+
+// Intersection Observer for fade-in animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+// Form submission — show success state
+const form = document.getElementById('referral-form');
+const formSuccess = document.getElementById('form-success');
+
+if (form) {
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    // Basic validation
+    const required = form.querySelectorAll('[required]');
+    let valid = true;
+    required.forEach(field => {
+      if (field.type === 'checkbox' && !field.checked) {
+        valid = false;
+        field.closest('.form-checkbox').style.outline = '2px solid var(--color-gold)';
+        field.closest('.form-checkbox').style.borderRadius = '4px';
+      } else if (field.type !== 'checkbox' && !field.value.trim()) {
+        valid = false;
+        field.style.borderColor = 'var(--color-gold)';
+      } else {
+        if (field.type === 'checkbox') {
+          field.closest('.form-checkbox').style.removeProperty('outline');
+        } else {
+          field.style.removeProperty('border-color');
+        }
+      }
+    });
+
+    if (!valid) return;
+
+    // Show success
+    form.style.display = 'none';
+    formSuccess.style.display = 'block';
+
+    // Scroll to success message
+    formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+}
+</script>
+
+</body>
+</html>
