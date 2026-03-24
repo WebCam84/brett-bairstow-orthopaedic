@@ -20,22 +20,21 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Refer a Patient | Mr Brett Bairstow Orthopaedic Surgeon Perth</title>
-<meta name="description" content="Information for GPs and specialists referring patients to Mr Brett Bairstow, orthopaedic surgeon in Osborne Park, Perth WA. Phone 08 9271 1552, Fax 08 9271 1553, Healthlink MTLAORTH.">
-<meta name="keywords" content="refer patient orthopaedic surgeon Perth, GP referral Brett Bairstow, Healthlink MTLAORTH, orthopaedic referral Osborne Park">
-<link rel="canonical" href="https://www.brettbairstow.com.au/referrers.html">
+<title>Frequently Asked Questions | Mr Brett Bairstow Orthopaedic Surgeon Perth</title>
+<meta name="description" content="Common questions about orthopaedic surgery, referrals, costs, and recovery with Mr Brett Bairstow in Perth WA.">
+<link rel="canonical" href="https://www.brettbairstow.com.au/faq.html">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.brettbairstow.com.au/referrers.html">
-<meta property="og:title" content="Refer a Patient | Mr Brett Bairstow Orthopaedic Surgeon Perth">
-<meta property="og:description" content="Information for GPs and specialists referring patients to Mr Brett Bairstow. Phone 08 9271 1552, Fax 08 9271 1553, Healthlink MTLAORTH.">
+<meta property="og:url" content="https://www.brettbairstow.com.au/faq.html">
+<meta property="og:title" content="Frequently Asked Questions | Mr Brett Bairstow Orthopaedic Surgeon Perth">
+<meta property="og:description" content="Common questions about orthopaedic surgery, referrals, costs, and recovery with Mr Brett Bairstow in Perth WA.">
 <meta property="og:image" content="./assets/images/og-image.jpg">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Refer a Patient | Mr Brett Bairstow Orthopaedic Surgeon Perth">
-<meta name="twitter:description" content="Referral information for GPs and specialists. Phone 08 9271 1552, Healthlink MTLAORTH.">
+<meta name="twitter:title" content="Frequently Asked Questions | Mr Brett Bairstow Orthopaedic Surgeon Perth">
+<meta name="twitter:description" content="Common questions about orthopaedic surgery, referrals, costs, and recovery with Mr Brett Bairstow in Perth WA.">
 
 <!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -46,165 +45,19 @@
 <link rel="stylesheet" href="./base.css">
 <link rel="stylesheet" href="./style.css">
 
-<style>
-/* Referrers page inline styles */
-.ref-section {
-  padding: var(--space-20) 0;
-}
-
-.ref-left {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-6);
-}
-
-.ref-right {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-8);
-}
-
-.indication-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  padding: var(--space-8);
-}
-
-.indication-card__header {
-  display: flex;
-  align-items: center;
-  gap: var(--space-4);
-  margin-bottom: var(--space-5);
-  padding-bottom: var(--space-4);
-  border-bottom: 2px solid var(--color-gold);
-}
-
-.indication-card__icon {
-  width: 40px;
-  height: 40px;
-  background: rgba(184,146,58,0.1);
-  border-radius: var(--radius-md);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  color: var(--color-gold);
-}
-
-.indication-card__title {
-  font-family: var(--font-display);
-  font-size: var(--text-lg);
-  font-weight: 600;
-  color: var(--color-text);
-  margin: 0;
-}
-
-.indication-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-3);
-}
-
-.indication-list li {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-  padding-left: var(--space-6);
-  position: relative;
-  line-height: 1.6;
-}
-
-.indication-list li::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0.6em;
-  width: 14px;
-  height: 2px;
-  background: var(--color-gold);
-  border-radius: 1px;
-}
-
-.visiting-clinic-card {
-  background: var(--color-navy);
-  color: #fff;
-  border-radius: var(--radius-xl);
-  padding: var(--space-10);
-  margin-top: var(--space-4);
-}
-
-.visiting-clinic-card__eyebrow {
-  font-size: var(--text-xs);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-gold);
-  margin-bottom: var(--space-3);
-}
-
-.visiting-clinic-card__title {
-  font-family: var(--font-display);
-  font-size: var(--text-xl);
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: var(--space-4);
-  line-height: 1.25;
-}
-
-.visiting-clinic-card__text {
-  font-size: var(--text-base);
-  color: rgba(255,255,255,0.75);
-  line-height: 1.75;
-  margin-bottom: var(--space-6);
-}
-
-.visiting-clinic-card__cta {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-2);
-  background: var(--color-gold);
-  color: #fff;
-  font-weight: 600;
-  font-size: var(--text-sm);
-  padding: var(--space-3) var(--space-6);
-  border-radius: var(--radius-lg);
-  text-decoration: none;
-  transition: opacity 0.2s;
-}
-
-.visiting-clinic-card__cta:hover { opacity: 0.88; }
-
-@media (max-width: 900px) {
-  .ref-section .contact-split { grid-template-columns: 1fr; }
-}
-</style>
-
 <!-- Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "MedicalClinic",
-  "name": "Boorloo Specialist Centre Orthopaedic Clinic",
-  "url": "https://www.brettbairstow.com.au/referrers.html",
-  "telephone": "08 9271 1552",
-  "faxNumber": "08 9271 1553",
-  "email": "drbrettbairstow@westnet.com.au",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Unit 2, 29 Walters Drive",
-    "addressLocality": "Osborne Park",
-    "addressRegion": "WA",
-    "postalCode": "6017",
-    "addressCountry": "AU"
-  },
-  "creator": {
-    "@type": "SoftwareApplication",
-    "name": "Perplexity Computer",
-    "url": "https://www.perplexity.ai/computer"
-  }
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Do I need a referral?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. A current referral from a GP or specialist is required for all appointments with Mr Bairstow. Self-referrals are not accepted. Referrals are valid for 12 months (3 months for WorkCover/DVA)."}},
+    {"@type": "Question", "name": "How do I make an appointment?", "acceptedAnswer": {"@type": "Answer", "text": "Contact our rooms at Boorloo Specialist Centre on (08) 9271 1552 (Mon–Fri). You may also submit a referral request via our website. Please have your referral ready when calling."}},
+    {"@type": "Question", "name": "Will I need surgery?", "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily. At your consultation, Mr Bairstow will discuss all treatment options — surgical and non-surgical. Many patients can be managed with physiotherapy, injections, or activity modification before considering surgery."}},
+    {"@type": "Question", "name": "Which hospital will my surgery be at?", "acceptedAnswer": {"@type": "Answer", "text": "Mr Bairstow operates primarily at Mount Private Hospital, Perth."}},
+    {"@type": "Question", "name": "Will I need physiotherapy?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Physiotherapy is an essential part of recovery for most orthopaedic procedures. Mr Bairstow will provide a referral and rehabilitation guidelines after your surgery."}}
+  ],
+  "creator": {"@type": "SoftwareApplication", "name": "Perplexity Computer", "url": "https://www.perplexity.ai/computer"}
 }
 </script>
 </head>
@@ -226,7 +79,6 @@
   <div class="container">
     <div class="header-inner">
 
-      <!-- Logo -->
       <a href="./index.html" class="site-logo" aria-label="Mr Brett Bairstow Orthopaedic Surgeon — Home">
         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
           <rect width="44" height="44" rx="10" fill="#2C3E6B"/>
@@ -244,8 +96,7 @@
         </span>
       </a>
 
-      <!-- Nav -->
-            <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
         <ul class="nav-list" role="list">
           <li class="nav-item">
             <a href="./about.html" class="nav-link">About</a>
@@ -275,7 +126,7 @@
             </ul>
           </li>
           <li class="nav-item has-dropdown">
-            <a href="./your-visit.html" class="nav-link">Your Visit</a>
+            <a href="./your-visit.html" class="nav-link active">Your Visit</a>
             <ul class="dropdown" role="list">
               <li><a href="./your-visit.html">Initial Consultation</a></li>
               <li><a href="./your-visit.html#fees">Patient Fees</a></li>
@@ -284,7 +135,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a href="./for-gps.html" class="nav-link active">For GPs</a>
+            <a href="./for-gps.html" class="nav-link">For GPs</a>
           </li>
           <li class="nav-item">
             <a href="./contact.html" class="nav-link">Contact</a>
@@ -292,7 +143,6 @@
         </ul>
       </nav>
 
-      <!-- Header Actions -->
       <div class="header-actions">
         <button class="theme-toggle" data-theme-toggle aria-label="Switch to dark mode" title="Toggle theme">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -313,151 +163,162 @@
 <!-- Page Hero -->
 <section class="page-hero" aria-label="Page hero">
   <div class="container">
-    <p class="page-hero__eyebrow">For Healthcare Professionals</p>
-    <h1 class="page-hero__title">Refer a Patient</h1>
-    <p class="page-hero__subtitle">Information for General Practitioners, Specialists &amp; Allied Health Professionals</p>
+    <h1 class="page-hero__title">Frequently Asked Questions</h1>
+    <p class="page-hero__subtitle">Common questions from patients and referring practitioners</p>
   </div>
 </section>
 
-<!-- Main Content -->
-<section class="ref-section" aria-labelledby="ref-heading">
+<!-- FAQ Content -->
+<section class="section" aria-labelledby="faq-main-heading">
   <div class="container">
-    <div class="contact-split">
+    <div style="max-width: 800px; margin: 0 auto;">
 
-      <!-- LEFT: Referral Details -->
-      <div class="ref-left">
+      <h2 id="faq-main-heading" style="font-family: var(--font-display); font-size: var(--text-xl); color: var(--color-text); margin-bottom: var(--space-2);" class="fade-in">Appointments &amp; Referrals</h2>
+      <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-8);" class="fade-in">Questions about how to see Mr Bairstow and arrange an appointment.</p>
 
-        <!-- Referral Details Card -->
-        <div class="refer-info-card">
-          <h2 class="refer-info-card__title" id="ref-heading">Referral Details</h2>
-          <div class="refer-detail">
+      <div class="faq-list fade-in">
 
-            <div class="refer-row">
-              <span class="refer-row__label">Practice</span>
-              <span class="refer-row__value">Boorloo Specialist Centre Orthopaedic Clinic</span>
-            </div>
-
-            <div class="refer-row">
-              <span class="refer-row__label">Address</span>
-              <span class="refer-row__value">Unit 2, 29 Walters Drive<br>Osborne Park WA 6017</span>
-            </div>
-
-            <div class="refer-row">
-              <span class="refer-row__label">Phone</span>
-              <span class="refer-row__value"><a href="tel:0892711552">(08) 9271 1552</a></span>
-            </div>
-
-            <div class="refer-row">
-              <span class="refer-row__label">Fax</span>
-              <span class="refer-row__value">(08) 9271 1553</span>
-            </div>
-
-            <div class="refer-row">
-              <span class="refer-row__label">Email</span>
-              <span class="refer-row__value"><a href="mailto:drbrettbairstow@westnet.com.au">drbrettbairstow@westnet.com.au</a></span>
-            </div>
-
-            <div class="refer-row">
-              <span class="refer-row__label">Healthlink</span>
-              <span class="refer-row__value" style="font-family:var(--font-display);font-weight:600;letter-spacing:0.04em;">MTLAORTH</span>
-            </div>
-
-            <div class="refer-row">
-              <span class="refer-row__label">Hospital</span>
-              <span class="refer-row__value">Mount Private Hospital (main operating list)</span>
-            </div>
-
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Do I need a referral?</button>
+          <div class="faq-answer">
+            <p>Yes. A current referral from a GP or specialist is required for all appointments with Mr Bairstow. Self-referrals are not accepted. Referrals are valid for 12 months from the date of issue (3 months for WorkCover and DVA patients).</p>
           </div>
         </div>
 
-        <!-- What to Include Card -->
-        <div class="refer-info-card">
-          <h2 class="refer-info-card__title">What to Include in Your Referral</h2>
-          <ul class="indication-list">
-            <li>Patient demographics and contact details</li>
-            <li>Presenting complaint and relevant history</li>
-            <li>Relevant comorbidities and current medications</li>
-            <li>Any previous orthopaedic history or surgeries</li>
-            <li>Current imaging (X-rays, MRI, CT) — please attach or indicate where available</li>
-            <li>Functional impact and activity goals</li>
-            <li>Urgency of review</li>
-          </ul>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">How do I make an appointment?</button>
+          <div class="faq-answer">
+            <p>Contact our rooms at Boorloo Specialist Centre on <a href="tel:0892711552">(08) 9271 1552</a> Monday to Friday. You may also submit a referral request via our <a href="./appointments.html">appointments page</a>. Please have your referral ready when calling.</p>
+          </div>
         </div>
 
-        <!-- Visiting Clinic Card -->
-        <div class="visiting-clinic-card">
-          <p class="visiting-clinic-card__eyebrow">Regional Access</p>
-          <h2 class="visiting-clinic-card__title">Visiting Clinic — Northam</h2>
-          <p class="visiting-clinic-card__text">Mr Bairstow visits Northam Family Practice approximately every 6 weeks, providing specialist orthopaedic care for regional patients. Please phone our Osborne Park rooms to arrange a Northam appointment.</p>
-          <a href="tel:0892711552" class="visiting-clinic-card__cta">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92l-.08 2z"/></svg>
-            Call (08) 9271 1552
-          </a>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Does Mr Bairstow consult in Northam?</button>
+          <div class="faq-answer">
+            <p>Yes. Mr Bairstow visits the Northam Family Practice approximately every 6 weeks, providing specialist orthopaedic care for regional patients. Please contact our Osborne Park rooms on <a href="tel:0892711552">(08) 9271 1552</a> to arrange a Northam appointment.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">How long will I wait for an appointment?</button>
+          <div class="faq-answer">
+            <p>Waiting times vary. Please contact our rooms for current availability. Urgent cases are triaged appropriately — please discuss urgency with your GP at the time of referral so they can indicate this on the referral letter.</p>
+          </div>
         </div>
 
       </div>
 
-      <!-- RIGHT: Referral Indications -->
-      <div class="ref-right">
+      <h2 style="font-family: var(--font-display); font-size: var(--text-xl); color: var(--color-text); margin-top: var(--space-16); margin-bottom: var(--space-2);" class="fade-in">About Your Surgery</h2>
+      <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-8);" class="fade-in">What to expect if surgery is recommended.</p>
 
-        <div style="margin-bottom:var(--space-2);">
-          <h2 style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:700;color:var(--color-text);margin-bottom:var(--space-2);line-height:1.2;">Referral Indications</h2>
-          <p style="font-size:var(--text-base);color:var(--color-text-muted);line-height:1.7;">The following guidance is provided to assist with appropriate patient selection. Please call our rooms if you have any questions about whether a patient is suitable for review.</p>
+      <div class="faq-list fade-in">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Will I need surgery?</button>
+          <div class="faq-answer">
+            <p>Not necessarily. At your consultation, Mr Bairstow will discuss all treatment options — surgical and non-surgical. Many patients can be managed with physiotherapy, injections, or activity modification before considering surgery. Mr Bairstow will provide an honest recommendation based on your clinical findings and goals.</p>
+          </div>
         </div>
 
-        <!-- Hip Replacement -->
-        <div class="indication-card">
-          <div class="indication-card__header">
-            <div class="indication-card__icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="3"/><path d="M6 20v-2a4 4 0 018 0v2M18 20v-2a2 2 0 00-2-2h-1"/></svg>
-            </div>
-            <h3 class="indication-card__title">Hip Replacement Indications</h3>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Which hospital will my surgery be at?</button>
+          <div class="faq-answer">
+            <p>Mr Bairstow operates primarily at Mount Private Hospital, Perth. Please discuss your private health insurance cover with our rooms prior to booking surgery to ensure you understand your expected costs.</p>
           </div>
-          <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin-bottom:var(--space-4);line-height:1.6;">Consider referring patients with:</p>
-          <ul class="indication-list">
-            <li>Symptomatic hip osteoarthritis failing conservative management</li>
-            <li>Avascular necrosis of the femoral head</li>
-            <li>Inflammatory arthropathy with significant hip involvement</li>
-            <li>Post-traumatic hip arthritis</li>
-            <li>Failed previous hip surgery requiring revision</li>
-          </ul>
         </div>
 
-        <!-- Knee Replacement -->
-        <div class="indication-card">
-          <div class="indication-card__header">
-            <div class="indication-card__icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L8 7H4l4 5-2 7 6-3 6 3-2-7 4-5h-4z"/></svg>
-            </div>
-            <h3 class="indication-card__title">Knee Replacement Indications</h3>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Do I need to see an anaesthetist?</button>
+          <div class="faq-answer">
+            <p>Yes. If surgery is planned, you will have a separate pre-operative assessment with an anaesthetist, usually arranged through the hospital's pre-admission service. This may be done in person or over the phone depending on your medical history.</p>
           </div>
-          <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin-bottom:var(--space-4);line-height:1.6;">Consider referring patients with:</p>
-          <ul class="indication-list">
-            <li>Advanced knee osteoarthritis (medial, lateral, or tricompartmental)</li>
-            <li>Inflammatory arthropathy with significant knee involvement</li>
-            <li>Failed conservative management (physio, analgesia, injections)</li>
-            <li>Significant functional limitation impacting quality of life</li>
-          </ul>
         </div>
 
-        <!-- Sports Knee Surgery -->
-        <div class="indication-card">
-          <div class="indication-card__header">
-            <div class="indication-card__icon" aria-hidden="true">
-              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-            </div>
-            <h3 class="indication-card__title">Sports Knee Surgery Indications</h3>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">How long will I be in hospital?</button>
+          <div class="faq-answer">
+            <p>Hospital stay depends on the procedure:</p>
+            <ul>
+              <li>Knee arthroscopy and ACL reconstruction: typically day case or one night</li>
+              <li>Partial knee replacement: approximately 2–3 days</li>
+              <li>Total knee replacement: approximately 3–5 days</li>
+              <li>Total hip replacement: approximately 2–4 days</li>
+            </ul>
+            <p>Mr Bairstow will advise you specifically based on your procedure and individual circumstances.</p>
           </div>
-          <p style="font-size:var(--text-sm);color:var(--color-text-muted);margin-bottom:var(--space-4);line-height:1.6;">Consider referring patients with:</p>
-          <ul class="indication-list">
-            <li>ACL rupture confirmed on MRI (acute or chronic, active patients)</li>
-            <li>Symptomatic meniscal tear</li>
-            <li>Mechanical symptoms (locking, clicking, giving way)</li>
-            <li>Recurrent knee effusions requiring investigation</li>
-          </ul>
         </div>
 
       </div>
+
+      <h2 style="font-family: var(--font-display); font-size: var(--text-xl); color: var(--color-text); margin-top: var(--space-16); margin-bottom: var(--space-2);" class="fade-in">Recovery &amp; Rehabilitation</h2>
+      <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-8);" class="fade-in">What to expect during recovery after surgery.</p>
+
+      <div class="faq-list fade-in">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">When can I drive after surgery?</button>
+          <div class="faq-answer">
+            <p>This depends on the procedure and which leg is operated on. Generally, driving is not permitted for 6 weeks after major joint replacement (hip or knee). For arthroscopic procedures, return to driving may be earlier. Mr Bairstow will advise you specifically at your post-operative appointment.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">When can I return to work?</button>
+          <div class="faq-answer">
+            <p>Return to work timelines vary by procedure and occupation. Office-based workers typically return sooner than those with physically demanding jobs. As a general guide:</p>
+            <ul>
+              <li>Knee arthroscopy: 1–2 weeks for sedentary work</li>
+              <li>ACL reconstruction: 2–4 weeks for sedentary work; longer for manual work</li>
+              <li>Joint replacement: 4–8 weeks for sedentary work; longer for physical roles</li>
+            </ul>
+            <p>Discuss your specific situation and work requirements with Mr Bairstow.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Will I need physiotherapy?</button>
+          <div class="faq-answer">
+            <p>Yes. Physiotherapy is an essential part of recovery for most orthopaedic procedures. Mr Bairstow will provide a referral and rehabilitation guidelines after your surgery. The duration and intensity of physiotherapy will depend on the procedure performed.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Are there dental precautions after joint replacement?</button>
+          <div class="faq-answer">
+            <p>Yes. After joint replacement surgery, dental procedures that may cause bacteraemia (such as extractions, scale and clean, or root canal treatment) should be discussed with both your dentist and Mr Bairstow. Antibiotic prophylaxis may be recommended in certain circumstances to reduce the very small risk of joint infection. Please raise this with our rooms if you need dental treatment after your surgery.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <h2 style="font-family: var(--font-display); font-size: var(--text-xl); color: var(--color-text); margin-top: var(--space-16); margin-bottom: var(--space-2);" class="fade-in">Fees &amp; Costs</h2>
+      <p style="font-size: var(--text-sm); color: var(--color-text-muted); margin-bottom: var(--space-8);" class="fade-in">Information about consultation and surgical fees.</p>
+
+      <div class="faq-list fade-in">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Will Medicare cover my consultation?</button>
+          <div class="faq-answer">
+            <p>Medicare provides a rebate for specialist consultations when you have a valid GP or specialist referral. There may be an out-of-pocket cost above the Medicare schedule fee. Please contact our rooms on <a href="tel:0892711552">(08) 9271 1552</a> for current consultation fees.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">Is my surgery covered by private health insurance?</button>
+          <div class="faq-answer">
+            <p>Private health insurance cover depends on your insurer, level of cover, and the specific procedure. We strongly recommend contacting your insurer in advance. Our rooms can provide item numbers to help you check your entitlements before you commit to surgery.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">What if I am not privately insured?</button>
+          <div class="faq-answer">
+            <p>Uninsured patients are welcome. Please discuss costs with our rooms prior to your appointment, as full out-of-pocket fees will apply for both consultation and surgery. We aim to be transparent about expected costs so there are no surprises.</p>
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </div>
 </section>
@@ -466,15 +327,15 @@
 <section class="cta-banner" aria-labelledby="cta-heading">
   <div class="container">
     <div class="cta-banner__content">
-      <h2 class="cta-banner__title" id="cta-heading">Ready to Refer a Patient?</h2>
-      <p class="cta-banner__subtitle">Send your referral by fax, Healthlink EDI (MTLAORTH), or contact our rooms directly to discuss suitability or arrange an urgent appointment.</p>
+      <h2 class="cta-banner__title" id="cta-heading">Still Have Questions?</h2>
+      <p class="cta-banner__subtitle">Our rooms are happy to help. Contact us directly or ask your GP to send a referral to arrange an appointment.</p>
       <div class="cta-banner__actions">
-        <a href="./appointments.html" class="btn btn--primary btn--lg">Referral Request Form</a>
+        <a href="./contact.html" class="btn btn--primary btn--lg">Send an Enquiry</a>
         <a href="tel:0892711552" class="btn btn--outline-white btn--lg">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92l-.08 2z"/></svg>
           Call 08 9271 1552
         </a>
-        <a href="./contact.html" class="btn btn--outline-white btn--lg">Send an Enquiry</a>
+        <a href="./appointments.html" class="btn btn--outline-white btn--lg">Request an Appointment</a>
       </div>
     </div>
   </div>
@@ -491,8 +352,6 @@
 <footer class="site-footer" role="contentinfo">
   <div class="container">
     <div class="footer-grid">
-
-      <!-- Brand -->
       <div class="footer-brand">
         <div class="footer-brand__logo">
           <a href="./index.html" class="site-logo" aria-label="Mr Brett Bairstow — Home">
@@ -508,9 +367,7 @@
             </svg>
           </a>
         </div>
-        <p class="footer-brand__desc">
-          Mr Brett Bairstow is a fellowship-trained orthopaedic surgeon providing expert care in hip &amp; knee replacement and sports knee surgery in Perth, Western Australia.
-        </p>
+        <p class="footer-brand__desc">Mr Brett Bairstow is a fellowship-trained orthopaedic surgeon providing expert care in hip &amp; knee replacement and sports knee surgery in Perth, Western Australia.</p>
         <div class="footer-contact-row">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.68A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92l-.08 2z"/></svg>
           <a href="tel:0892711552">(08) 9271 1552</a>
@@ -520,8 +377,6 @@
           <a href="mailto:drbrettbairstow@westnet.com.au">drbrettbairstow@westnet.com.au</a>
         </div>
       </div>
-
-            <!-- Navigation -->
       <div class="footer-section">
         <h3 class="footer-section__title">Navigation</h3>
         <ul role="list">
@@ -533,8 +388,6 @@
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </div>
-
-<!-- Procedures -->
       <div class="footer-section">
         <h3 class="footer-section__title">Procedures</h3>
         <ul role="list">
@@ -546,8 +399,6 @@
           <li><a href="./sports-knee.html">Sports Knee Surgery</a></li>
         </ul>
       </div>
-
-      <!-- Contact Info -->
       <div class="footer-section">
         <h3 class="footer-section__title">Main Rooms</h3>
         <div class="footer-contact-row">
@@ -567,10 +418,7 @@
           <span>Healthlink: MTLAORTH</span>
         </div>
       </div>
-
     </div>
-
-    <!-- Footer Bottom -->
     <div class="footer-bottom">
       <p class="footer-bottom__copy">
         &copy; 2026 Mr Brett Bairstow. All rights reserved. Medical information provided for general information only.
@@ -597,7 +445,6 @@
 
 <!-- JavaScript -->
 <script>
-// Theme toggle
 (function(){
   const t = document.querySelector('[data-theme-toggle]');
   const r = document.documentElement;
@@ -615,14 +462,8 @@
     });
   }
 })();
-
-// Sticky header on scroll
 const header = document.getElementById('site-header');
-window.addEventListener('scroll', () => {
-  header.classList.toggle('scrolled', window.scrollY > 20);
-}, { passive: true });
-
-// Mobile menu toggle
+window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.scrollY > 20); }, { passive: true });
 const menuToggle = document.getElementById('menu-toggle');
 const siteNav = document.getElementById('site-nav');
 if (menuToggle && siteNav) {
@@ -631,36 +472,28 @@ if (menuToggle && siteNav) {
     menuToggle.setAttribute('aria-expanded', isOpen);
   });
 }
-
-// Mobile dropdown toggles
 document.querySelectorAll('.has-dropdown > .nav-link').forEach(link => {
   link.addEventListener('click', (e) => {
-    if (window.innerWidth <= 900) {
-      e.preventDefault();
-      link.closest('.has-dropdown').classList.toggle('open');
-    }
+    if (window.innerWidth <= 900) { e.preventDefault(); link.closest('.has-dropdown').classList.toggle('open'); }
   });
 });
-
-// Show CTA button after scroll
 const navCta = document.getElementById('nav-cta');
 if (navCta) {
-  window.addEventListener('scroll', () => {
-    navCta.style.display = window.scrollY > 300 ? 'inline-flex' : 'none';
-  }, { passive: true });
+  window.addEventListener('scroll', () => { navCta.style.display = window.scrollY > 300 ? 'inline-flex' : 'none'; }, { passive: true });
 }
-
-// Intersection Observer for fade-in animations
 const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      observer.unobserve(entry.target);
-    }
-  });
+  entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
 }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-
 document.querySelectorAll('.fade-in, .reveal, .reveal-left, .reveal-right').forEach(el => observer.observe(el));
+</script>
+<script>
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    document.querySelectorAll('.faq-question').forEach(b => { b.setAttribute('aria-expanded','false'); b.nextElementSibling.classList.remove('open'); });
+    if (!expanded) { btn.setAttribute('aria-expanded','true'); btn.nextElementSibling.classList.add('open'); }
+  });
+});
 </script>
 
 </body>

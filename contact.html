@@ -270,9 +270,9 @@
   <span>Appointments: </span>
   <a href="tel:0892711552">08 9271 1552</a>
   <span class="sep">|</span>
-  <span>Consulting at Osborne Park &amp; Northam</span>
+  <span>Osborne Park &middot; Northam</span>
   <span class="sep">|</span>
-  <a href="./appointments.html">Request a Referral</a>
+  <span>Referral Required</span>
 </div>
 
 <!-- Header -->
@@ -299,30 +299,46 @@
       </a>
 
       <!-- Nav -->
-      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+            <nav class="site-nav" id="site-nav" aria-label="Main navigation">
         <ul class="nav-list" role="list">
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link">Home</a>
-          </li>
           <li class="nav-item">
             <a href="./about.html" class="nav-link">About</a>
           </li>
           <li class="nav-item has-dropdown">
-            <a href="./procedures.html" class="nav-link">Procedures</a>
+            <a href="./hip-replacement.html" class="nav-link">Hip</a>
             <ul class="dropdown" role="list">
-              <li><a href="./procedures.html#hip-replacement">Hip Replacement</a></li>
-              <li><a href="./procedures.html#knee-replacement">Knee Replacement</a></li>
-              <li><a href="./procedures.html#acl-reconstruction">ACL Reconstruction</a></li>
-              <li><a href="./procedures.html#knee-arthroscopy">Knee Arthroscopy</a></li>
-              <li><a href="./procedures.html#partial-knee">Partial Knee Replacement</a></li>
-              <li><a href="./procedures.html">All Procedures</a></li>
+              <li><a href="./hip-replacement.html">Hip Replacement</a></li>
+              <li><a href="./hip.html#conditions">Hip Conditions</a></li>
+              <li><a href="./hip-replacement.html#preop">Pre-operative Planning</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="./knee-replacement.html" class="nav-link">Knee</a>
+            <ul class="dropdown" role="list">
+              <li><a href="./knee-replacement.html">Knee Replacement</a></li>
+              <li><a href="./partial-knee.html">Partial Knee Replacement</a></li>
+              <li><a href="./knee.html#conditions">Knee Conditions</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="./sports-knee.html" class="nav-link">Sports Knee</a>
+            <ul class="dropdown" role="list">
+              <li><a href="./acl-reconstruction.html">ACL Reconstruction</a></li>
+              <li><a href="./knee-arthroscopy.html">Knee Arthroscopy</a></li>
+              <li><a href="./sports-knee.html">Sports Knee Injuries</a></li>
+            </ul>
+          </li>
+          <li class="nav-item has-dropdown">
+            <a href="./your-visit.html" class="nav-link">Your Visit</a>
+            <ul class="dropdown" role="list">
+              <li><a href="./your-visit.html">Initial Consultation</a></li>
+              <li><a href="./your-visit.html#fees">Patient Fees</a></li>
+              <li><a href="./your-visit.html#what-to-bring">What to Bring</a></li>
+              <li><a href="./faq.html">FAQ</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a href="./appointments.html" class="nav-link">Appointments</a>
-          </li>
-          <li class="nav-item">
-            <a href="./referrers.html" class="nav-link">Refer a Patient</a>
+            <a href="./for-gps.html" class="nav-link">For GPs</a>
           </li>
           <li class="nav-item">
             <a href="./contact.html" class="nav-link active">Contact</a>
@@ -600,29 +616,29 @@
         </div>
       </div>
 
-      <!-- Navigation -->
+            <!-- Navigation -->
       <div class="footer-section">
         <h3 class="footer-section__title">Navigation</h3>
         <ul role="list">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About Mr Bairstow</a></li>
-          <li><a href="./procedures.html">Procedures</a></li>
+          <li><a href="./your-visit.html">Your Visit</a></li>
+          <li><a href="./for-gps.html">For GPs</a></li>
           <li><a href="./appointments.html">Appointments</a></li>
-          <li><a href="./referrers.html">Refer a Patient</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </div>
 
-      <!-- Procedures -->
+<!-- Procedures -->
       <div class="footer-section">
         <h3 class="footer-section__title">Procedures</h3>
         <ul role="list">
-          <li><a href="./procedures.html#hip-replacement">Hip Replacement</a></li>
-          <li><a href="./procedures.html#knee-replacement">Total Knee Replacement</a></li>
-          <li><a href="./procedures.html#partial-knee">Partial Knee Replacement</a></li>
-          <li><a href="./procedures.html#acl-reconstruction">ACL Reconstruction</a></li>
-          <li><a href="./procedures.html#knee-arthroscopy">Knee Arthroscopy</a></li>
-          <li><a href="./procedures.html">All Procedures</a></li>
+          <li><a href="./hip-replacement.html">Hip Replacement</a></li>
+          <li><a href="./knee-replacement.html">Knee Replacement</a></li>
+          <li><a href="./partial-knee.html">Partial Knee Replacement</a></li>
+          <li><a href="./acl-reconstruction.html">ACL Reconstruction</a></li>
+          <li><a href="./knee-arthroscopy.html">Knee Arthroscopy</a></li>
+          <li><a href="./sports-knee.html">Sports Knee Surgery</a></li>
         </ul>
       </div>
 
@@ -739,7 +755,7 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+document.querySelectorAll('.fade-in, .reveal, .reveal-left, .reveal-right').forEach(el => observer.observe(el));
 
 // Contact form submission (success state)
 const contactForm = document.getElementById('contact-form');

@@ -1,69 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<!--
-   ______                            __
-  / ____/___  ____ ___  ____  __  __/ /____  _____
- / /   / __ \/ __ `__ \/ __ \/ / / / __/ _ \/ ___/
-/ /___/ /_/ / / / / / / /_/ / /_/ / /_/  __/ /
-\____/\____/_/ /_/ /_/ .___/\__,_/\__/\___/_/
-                    /_/
-        Created with Perplexity Computer
-        https://www.perplexity.ai/computer
--->
-
-<!-- Perplexity Computer Attribution — SEO Meta Tags -->
-<meta name="generator" content="Perplexity Computer">
-<meta name="author" content="Perplexity Computer">
-<meta property="og:see_also" content="https://www.perplexity.ai/computer">
-<link rel="author" href="https://www.perplexity.ai/computer">
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy | Mr Brett Bairstow Orthopaedic Surgeon Perth</title>
-<meta name="description" content="Privacy Policy for Mr Brett Bairstow (Boorloo Specialist Centre Orthopaedic Clinic). How we collect, use and protect your personal information.">
-<link rel="canonical" href="https://www.brettbairstow.com.au/privacy.html">
-<meta name="robots" content="noindex, follow">
-
-<!-- Fonts -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet">
-
-<!-- Styles -->
-<link rel="stylesheet" href="./base.css">
-<link rel="stylesheet" href="./style.css">
-
-<style>
-.legal-section {
-  padding: var(--space-20) 0 var(--space-24);
-}
-
-.legal-content {
-  max-width: 740px;
-  margin: 0 auto;
-}
-
-.legal-meta {
-  font-size: var(--text-sm);
-  color: var(--color-text-muted);
-  margin-bottom: var(--space-10);
-  padding-bottom: var(--space-6);
-  border-bottom: 1px solid var(--color-border);
-}
-</style>
-</head>
-
-<body>
-
 <!-- Announcement Bar -->
 <div class="announcement-bar" role="banner">
   <span>Appointments: </span>
   <a href="tel:0892711552">08 9271 1552</a>
   <span class="sep">|</span>
-  <span>Osborne Park &middot; Northam</span>
+  <span>Consulting at Osborne Park &amp; Northam</span>
   <span class="sep">|</span>
-  <span>Referral Required</span>
+  <a href="./appointments.html">Request a Referral</a>
 </div>
 
 <!-- Header -->
@@ -75,6 +17,7 @@
       <a href="./index.html" class="site-logo" aria-label="Mr Brett Bairstow Orthopaedic Surgeon — Home">
         <svg width="44" height="44" viewBox="0 0 44 44" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
           <rect width="44" height="44" rx="10" fill="#2C3E6B"/>
+          <!-- Stylised bone / cross motif -->
           <rect x="20" y="8" width="4" height="28" rx="2" fill="#8A9BB0"/>
           <rect x="8" y="20" width="28" height="4" rx="2" fill="#8A9BB0"/>
           <circle cx="22" cy="22" r="4" fill="#2C3E6B"/>
@@ -90,46 +33,30 @@
       </a>
 
       <!-- Nav -->
-            <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
         <ul class="nav-list" role="list">
+          <li class="nav-item">
+            <a href="./index.html" class="nav-link active">Home</a>
+          </li>
           <li class="nav-item">
             <a href="./about.html" class="nav-link">About</a>
           </li>
           <li class="nav-item has-dropdown">
-            <a href="./hip-replacement.html" class="nav-link">Hip</a>
+            <a href="./procedures.html" class="nav-link">Procedures</a>
             <ul class="dropdown" role="list">
-              <li><a href="./hip-replacement.html">Hip Replacement</a></li>
-              <li><a href="./hip.html#conditions">Hip Conditions</a></li>
-              <li><a href="./hip-replacement.html#preop">Pre-operative Planning</a></li>
-            </ul>
-          </li>
-          <li class="nav-item has-dropdown">
-            <a href="./knee-replacement.html" class="nav-link">Knee</a>
-            <ul class="dropdown" role="list">
-              <li><a href="./knee-replacement.html">Knee Replacement</a></li>
-              <li><a href="./partial-knee.html">Partial Knee Replacement</a></li>
-              <li><a href="./knee.html#conditions">Knee Conditions</a></li>
-            </ul>
-          </li>
-          <li class="nav-item has-dropdown">
-            <a href="./sports-knee.html" class="nav-link">Sports Knee</a>
-            <ul class="dropdown" role="list">
-              <li><a href="./acl-reconstruction.html">ACL Reconstruction</a></li>
-              <li><a href="./knee-arthroscopy.html">Knee Arthroscopy</a></li>
-              <li><a href="./sports-knee.html">Sports Knee Injuries</a></li>
-            </ul>
-          </li>
-          <li class="nav-item has-dropdown">
-            <a href="./your-visit.html" class="nav-link">Your Visit</a>
-            <ul class="dropdown" role="list">
-              <li><a href="./your-visit.html">Initial Consultation</a></li>
-              <li><a href="./your-visit.html#fees">Patient Fees</a></li>
-              <li><a href="./your-visit.html#what-to-bring">What to Bring</a></li>
-              <li><a href="./faq.html">FAQ</a></li>
+              <li><a href="./procedures.html#hip-replacement">Hip Replacement</a></li>
+              <li><a href="./procedures.html#knee-replacement">Knee Replacement</a></li>
+              <li><a href="./procedures.html#acl-reconstruction">ACL Reconstruction</a></li>
+              <li><a href="./procedures.html#knee-arthroscopy">Knee Arthroscopy</a></li>
+              <li><a href="./procedures.html#partial-knee">Partial Knee Replacement</a></li>
+              <li><a href="./procedures.html">All Procedures</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a href="./for-gps.html" class="nav-link">For GPs</a>
+            <a href="./appointments.html" class="nav-link">Appointments</a>
+          </li>
+          <li class="nav-item">
+            <a href="./referrers.html" class="nav-link">Refer a Patient</a>
           </li>
           <li class="nav-item">
             <a href="./contact.html" class="nav-link">Contact</a>
@@ -155,58 +82,42 @@
   </div>
 </header>
 
-<!-- Page Hero -->
-<section class="page-hero" aria-label="Page hero">
+<!-- Hero -->
+<section class="hero" aria-label="Hero">
+  <img
+    src="./assets/images/hero-bg.jpg"
+    alt="Operating theatre — orthopaedic surgery, Perth WA"
+    class="hero__img"
+    loading="eager"
+    fetchpriority="high"
+  >
+  <div class="hero__bg" aria-hidden="true"></div>
   <div class="container">
-    <p class="page-hero__eyebrow">Legal</p>
-    <h1 class="page-hero__title">Privacy Policy</h1>
-    <p class="page-hero__subtitle">How we collect, use, and protect your personal information</p>
-  </div>
-</section>
-
-<!-- Content -->
-<section class="legal-section" aria-label="Privacy policy content">
-  <div class="container">
-    <div class="legal-content">
-
-      <p class="legal-meta">Last updated: March 2026</p>
-
-      <div class="bio-content">
-
-        <p>Mr Brett Bairstow (trading as Boorloo Specialist Centre Orthopaedic Clinic) is committed to protecting your privacy in accordance with the <em>Privacy Act 1988</em> (Cth) and the Australian Privacy Principles.</p>
-
-        <h2>Collection of Information</h2>
-        <p>We collect personal information, including health information, that is reasonably necessary to provide you with orthopaedic surgical services. This includes your name, contact details, Medicare number, referral details, medical history, and imaging results.</p>
-
-        <h2>Use and Disclosure</h2>
-        <p>Your personal information is used to provide medical treatment and coordinate your care. We do not disclose your information to third parties without your consent, except where required by law or for the purpose of providing your healthcare (e.g., communication with your referring GP, hospital staff, and anaesthetist).</p>
-
-        <h2>Security</h2>
-        <p>We take reasonable steps to protect your personal information from misuse, interference, loss, and unauthorised access.</p>
-
-        <h2>Access and Correction</h2>
-        <p>You may request access to your personal information held by our practice by contacting us at <a href="mailto:drbrettbairstow@westnet.com.au" style="color:var(--color-gold);">drbrettbairstow@westnet.com.au</a> or calling <a href="tel:0892711552" style="color:var(--color-gold);">(08) 9271 1552</a>.</p>
-
-        <h2>Contact</h2>
-        <p>For privacy enquiries, contact our rooms at Unit 2, 29 Walters Drive, Osborne Park WA 6017, or email <a href="mailto:drbrettbairstow@westnet.com.au" style="color:var(--color-gold);">drbrettbairstow@westnet.com.au</a>.</p>
-
-        <div style="margin-top:var(--space-10);display:flex;flex-wrap:wrap;gap:var(--space-4);">
-          <a href="./contact.html" class="btn btn--primary">Contact Us</a>
-          <a href="./terms.html" class="btn btn--outline">Terms &amp; Conditions</a>
-        </div>
-
+    <div class="hero__content">
+      <p class="hero__eyebrow">Perth Orthopaedic Surgeon</p>
+      <h1 class="hero__title">Mr Brett<br><em>Bairstow</em></h1>
+      <p class="hero__subtitle">
+        Fellowship-trained orthopaedic surgeon specialising in hip &amp; knee replacement and sports knee surgery. Proudly serving patients across Perth and regional Western Australia.
+      </p>
+      <div class="hero__credentials" aria-label="Qualifications">
+        <span class="credential-badge">BMedSc (Hons)</span>
+        <span class="credential-badge">MBBS (WA)</span>
+        <span class="credential-badge">FRACS (Orth)</span>
+        <span class="credential-badge">FAOrthA</span>
+      </div>
+      <div class="hero__actions">
+        <a href="./appointments.html" class="btn btn--primary btn--lg">Request Appointment</a>
+        <a href="./about.html" class="btn btn--outline-white btn--lg">About Mr Bairstow</a>
       </div>
     </div>
   </div>
+  <div class="hero__scroll" aria-hidden="true">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+  </div>
 </section>
 
-<!-- Disclaimer -->
-<div class="disclaimer-strip">
-  <div class="container">
-    <p>The content on this website is intended for informational purposes only and does not constitute medical advice. Always consult a qualified medical professional for personalised treatment recommendations. A referral from your GP is required to see Mr Bairstow.</p>
-  </div>
-</div>
-
+<!-- Stats Bar -->
+<div class="stats-bar" aria-label="Practice at a glance">
 <!-- Footer -->
 <footer class="site-footer" role="contentinfo">
   <div class="container">
@@ -241,29 +152,29 @@
         </div>
       </div>
 
-            <!-- Navigation -->
+      <!-- Navigation -->
       <div class="footer-section">
         <h3 class="footer-section__title">Navigation</h3>
         <ul role="list">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./about.html">About Mr Bairstow</a></li>
-          <li><a href="./your-visit.html">Your Visit</a></li>
-          <li><a href="./for-gps.html">For GPs</a></li>
+          <li><a href="./procedures.html">Procedures</a></li>
           <li><a href="./appointments.html">Appointments</a></li>
+          <li><a href="./referrers.html">Refer a Patient</a></li>
           <li><a href="./contact.html">Contact</a></li>
         </ul>
       </div>
 
-<!-- Procedures -->
+      <!-- Procedures -->
       <div class="footer-section">
         <h3 class="footer-section__title">Procedures</h3>
         <ul role="list">
-          <li><a href="./hip-replacement.html">Hip Replacement</a></li>
-          <li><a href="./knee-replacement.html">Knee Replacement</a></li>
-          <li><a href="./partial-knee.html">Partial Knee Replacement</a></li>
-          <li><a href="./acl-reconstruction.html">ACL Reconstruction</a></li>
-          <li><a href="./knee-arthroscopy.html">Knee Arthroscopy</a></li>
-          <li><a href="./sports-knee.html">Sports Knee Surgery</a></li>
+          <li><a href="./procedures.html#hip-replacement">Hip Replacement</a></li>
+          <li><a href="./procedures.html#knee-replacement">Total Knee Replacement</a></li>
+          <li><a href="./procedures.html#partial-knee">Partial Knee Replacement</a></li>
+          <li><a href="./procedures.html#acl-reconstruction">ACL Reconstruction</a></li>
+          <li><a href="./procedures.html#knee-arthroscopy">Knee Arthroscopy</a></li>
+          <li><a href="./procedures.html">All Procedures</a></li>
         </ul>
       </div>
 
@@ -328,50 +239,3 @@
     const moonIcon = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
     t.innerHTML = d === 'dark' ? sunIcon : moonIcon;
     t.addEventListener('click', () => {
-      d = d === 'dark' ? 'light' : 'dark';
-      r.setAttribute('data-theme', d);
-      t.innerHTML = d === 'dark' ? sunIcon : moonIcon;
-      t.setAttribute('aria-label', 'Switch to ' + (d === 'dark' ? 'light' : 'dark') + ' mode');
-    });
-  }
-})();
-
-const header = document.getElementById('site-header');
-window.addEventListener('scroll', () => {
-  header.classList.toggle('scrolled', window.scrollY > 20);
-}, { passive: true });
-
-const menuToggle = document.getElementById('menu-toggle');
-const siteNav = document.getElementById('site-nav');
-if (menuToggle && siteNav) {
-  menuToggle.addEventListener('click', () => {
-    const isOpen = siteNav.classList.toggle('open');
-    menuToggle.setAttribute('aria-expanded', isOpen);
-  });
-}
-
-document.querySelectorAll('.has-dropdown > .nav-link').forEach(link => {
-  link.addEventListener('click', (e) => {
-    if (window.innerWidth <= 900) {
-      e.preventDefault();
-      link.closest('.has-dropdown').classList.toggle('open');
-    }
-  });
-});
-
-const navCta = document.getElementById('nav-cta');
-if (navCta) {
-  window.addEventListener('scroll', () => {
-    navCta.style.display = window.scrollY > 300 ? 'inline-flex' : 'none';
-  }, { passive: true });
-}
-
-// Intersection Observer for animations
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
-}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-document.querySelectorAll('.fade-in, .reveal, .reveal-left, .reveal-right').forEach(el => observer.observe(el));
-</script>
-
-</body>
-</html>
